@@ -163,3 +163,33 @@ button {
     
 }
 
+
+
+/* Media Queries */
+@media (min-width:768px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 75%;
+        height: 10vh;
+        border-radius: 2vh; 
+        float: left;   
+    }
+
+    select {
+       height: 5vh;
+       width: 25vh;
+    }
+
+    textarea {
+        height: 15vh;
+    }
+
+    button {
+        height: 10vh;
+        font-size: 3em;
+    }
+
+   
+}
