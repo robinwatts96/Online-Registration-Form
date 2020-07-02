@@ -288,25 +288,31 @@
       <fieldset class="newsletter">
       
         <label>Select the newsletters you would like recieve</label>
-        <input type="checkbox" id="type" name="user_type" value="html_news">
-        <label for="type">HTML News</label>
 
-        <input type="checkbox" id="type" name="user_type" value="css_news">
-        <label for="type">CSS News</label>
+        <ul class="checkbox">
+            <li><input type="checkbox" id="type" name="user_type" value="html_news">
+                <label for="type">HTML News</label></li>
+            <li><input type="checkbox" id="type" name="user_type" value="css_news">
+                <label for="type">CSS News</label></li>
+            <li><input type="checkbox" id="type" name="user_type" value="javascript_news">
+                <label for="type">Javascript News</label></li>
 
-        <input type="checkbox" id="type" name="user_type" value="javascript_news">
-        <label for="type">Javascript News</label>
-
+        </ul>
+        <br>
+        
         <label>Newsletter format</label>
-        <input type="radio" id="format" name="user_format" value="html">
-        <label for="format">HTML</label>
-
-        <input type="radio" id="format" name="user_format" value="plain_text">
-        <label for="format">Plain Text</label>
-
+        <ul class="radio">
+           <li><input type="radio" id="format" name="user_format" value="html">
+            <label for="format">HTML</label></li>
+           <li><input type="radio" id="format" name="user_format" value="plain_text">
+            <label for="format">Plain Text</label></li>
+        </ul>
+    
+        <br>
         <label>Other topics you would like to hear about</label>
         <textarea id="other" name="user_other" placeholder="Let us know..."></textarea>
 
+        <br>
         <button type="submit">Sign Up</button>
 
       </fieldset>
