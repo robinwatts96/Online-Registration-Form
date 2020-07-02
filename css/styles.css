@@ -4,7 +4,7 @@
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #05386b;
 }
 
@@ -13,7 +13,7 @@ footer {
     color: #edf5e1;
     text-align: center;
     justify-content: flex-end;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 1em 0;
     border-top-left-radius: 10vh;
     border-top-right-radius: 10vh;
@@ -41,7 +41,7 @@ header h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #05386b;
 }
 
@@ -93,7 +93,7 @@ form {
 
 label {
     color: #05386b;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 fieldset {
@@ -134,7 +134,7 @@ select {
 
 input[type=checkbox],
 input[type=radio] {
-    transform: scale(1.8);
+    transform: scale(1.4);
 }
 
 .checkbox label,
@@ -144,7 +144,8 @@ input[type=radio] {
 
 textarea {
     width: 100%;
-    height: 15vh;
+    height: 10vh;
+    margin-top: .7vh;
     overflow: scroll;
     background: #379683;
     box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.8);
@@ -152,9 +153,9 @@ textarea {
 
 button {
     width: 80%;
-    height: 10vh;
-    margin: 3vh auto;
-    font-size: 3em;
+    height: 7vh;
+    margin: 2vh auto;
+    font-size: 1.5em;
     color: #edf5e1;
     background: linear-gradient(315deg, #05386b, #379683);
     border: none;
