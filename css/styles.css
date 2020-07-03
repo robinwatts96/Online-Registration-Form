@@ -133,7 +133,7 @@ select {
 }
 
 #zip {
-    width: 30vh;
+    width: 50% !important;
 }
 
 ::placeholder {
@@ -186,7 +186,7 @@ button {
     width: 80%;
     height: 7vh;
     margin-top: 2vh;
-    margin-left: 2vh;
+    margin-left: 4vh;
     margin-bottom: 2vh;
     font-size: 1.5em;
     color: #edf5e1;
@@ -240,11 +240,21 @@ button {
         font-size: 2.5em;
     }
     
+    legend {
+        font-size: 2em;
+        margin-bottom: 2vh;
+    }
+
     label {
         font-size: 1.5em;
     }
 
     #zip {
-        width: 70%;
+        width: 30% !important;
+        margin-right: 40%;
     }
+
+    .flex-pair .zip {
+        justify-content: flex-start
+    
 }
