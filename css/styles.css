@@ -45,6 +45,12 @@ h2 {
     color: #05386b;
 }
 
+legend {
+    font-size: 1.3em;
+    color: #05386b;
+    font-weight: bold;
+}
+
 .top-container {
     display: flex;
     flex-direction: column;
@@ -135,7 +141,8 @@ select {
 input:focus {
     box-shadow: none;
     transform: scale(1.1);
-    background: rgba(55,150,131, 0.5)
+    background: rgba(55,150,131, 0.5);
+    transition: transform .5s;
     
 }
 
@@ -192,24 +199,30 @@ button {
 @media (min-width:768px) {
 
    .contact-information {
-       width: 100%;
-       
+       width: 100%;    
    }
    
+   .flex-pair {
+       flex-direction: row;
+       justify-content: space-between;
+   }
    
     input[type="text"],
     input[type="email"],
     input[type="tel"] {
-        width: 40%;
+        width: 70%;
         height: 5vh;
         border-radius: 2vh; 
-        
-
     }
+
+
+    .country-code {
+    margin-right: 57%;
+}
 
     select {
        height: 5vh;
-       width: 25vh;
+       width: 10vh;
     }
 
     textarea {
@@ -219,6 +232,7 @@ button {
     button {
         height: 10vh;
         font-size: 3em;
+        margin-left: 7vh;
     }
     
     h2 {
