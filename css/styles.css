@@ -84,10 +84,14 @@ h2 {
 
 /* Form */
 
+form h2 {
+    margin-left: 1.5vh;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -96,7 +100,7 @@ label {
     font-size: 1em;
 }
 
-fieldset {
+.flex-pair {
     display: flex;
     flex-direction: column;
     border: none;
@@ -106,7 +110,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"] {
     width: 100%;
-    height: 6vh;
+    height: 5vh;
     border-radius: 1vh;
     color: #edf5e1;
     background: #379683;
@@ -128,8 +132,25 @@ select {
     padding-left: 10px;
 }
 
+input:focus {
+    box-shadow: none;
+    transform: scale(1.1);
+    background: rgba(55,150,131, 0.5)
+    
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.contact-information,
+.newsletter {
+    border: none;
+}
+
 .contact-information label {
     margin-top: 2vh;
+    padding-bottom: 1vh;
 }
 
 input[type=checkbox],
@@ -154,7 +175,9 @@ textarea {
 button {
     width: 80%;
     height: 7vh;
-    margin: 2vh auto;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
     font-size: 1.5em;
     color: #edf5e1;
     background: linear-gradient(315deg, #05386b, #379683);
@@ -168,12 +191,19 @@ button {
 /* Media Queries */
 @media (min-width:768px) {
 
+   .contact-information {
+       width: 100%;
+       
+   }
+   
+   
     input[type="text"],
     input[type="email"],
     input[type="tel"] {
-        width: 60%;
+        width: 40%;
         height: 5vh;
         border-radius: 2vh; 
+        
 
     }
 
@@ -197,6 +227,6 @@ button {
     
     label {
         font-size: 1.5em;
-
+      
     }
 }
