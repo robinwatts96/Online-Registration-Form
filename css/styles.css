@@ -183,10 +183,9 @@ textarea {
 }
 
 button {
-    width: 25vh;
+    width: 102%;
     height: 7vh;
     margin-top: 2vh;
-    margin-left: 6%;
     margin-bottom: 2vh;
     font-size: 1.7em !important;
     color: #edf5e1;
@@ -234,8 +233,8 @@ button {
 
     button {
         height: 10vh;
-        margin-left: 14vh;
-        width: 60%;
+        width: 101%;
+        font-size: 6em;
     }
     
     h2 {
