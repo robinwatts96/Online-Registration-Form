@@ -10,7 +10,7 @@ p {
 
 footer {
     background: rgba(5, 56, 107, 1);
-    color: #edf5e1;
+    color: white;
     text-align: center;
     justify-content: flex-end;
     font-size: 1em;
@@ -20,7 +20,7 @@ footer {
 }
 
 body {
-    background: #edf5e1;
+    background: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -30,7 +30,7 @@ header {
     background: #05386b;
     border-bottom-left-radius: 10vh;
     border-bottom-right-radius: 10vh;
-    color: #edf5e1;
+    color: white;
     display: flex;
     text-transform: uppercase;
     justify-content: center;
@@ -188,7 +188,7 @@ button {
     margin-top: 2vh;
     margin-bottom: 2vh;
     font-size: 1.7em !important;
-    color: #edf5e1;
+    color: white;
     background: linear-gradient(315deg, #05386b, #379683);
     border: none;
     box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.8);
